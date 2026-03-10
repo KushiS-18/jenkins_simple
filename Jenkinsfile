@@ -12,8 +12,8 @@ pipeline{
 
     stage('Run Script'){
       steps{
-        sh 'chmod +x script.sh'
-        sh './script.sh'
+        sh 'chmod +x text.py'
+        sh './text.py'
       }
     }
   }
